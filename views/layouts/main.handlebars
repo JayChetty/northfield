@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Main Title </title>
+    <link rel='stylesheet' type='text/css' href='styles/main.css'>
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class='panel'>
+      <div class='panel-header'>
+        <h1> Northfield House Hotel </h1>
+      </div>
+      <div class='panel-nav'>
+        <div class='nav-item' id='about'>
+          <a href='/about'>about</a>
+        </div>
+        <div class='nav-item' id='menu'>
+          <a href='/menu'>restaurant</a>
+        </div>
+        <div class='nav-item' id='contact'>
+          <a href='/contact'>contact</a>
+        </div>
+      </div>
+      <div class='panel-body'>
+        {{{body}}}
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var page = "about";
+  var path = window.location.pathname.slice(1);
+  if(path.length > 0){
+    page = path;
+  }
+  var node = document.getElementById(page);
+  node.className += " selected";
+</script>
