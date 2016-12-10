@@ -23,3 +23,19 @@ body{
 .nav-item{
   margin: 5px;
 }
+
+.body-item{
+  /*border: 1px solid black;*/
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  display: flex;
+  flex-direction: row;
+  border-radius:5px;
+  font-size:20px;
+}
+
+.sub-item{
+  margin: 10px;
+  padding: 10px;
+}
