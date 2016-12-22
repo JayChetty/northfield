@@ -60,9 +60,10 @@ a{
   margin: 20px;
   /*border: 1px solid #886699;*/
   border-radius: 10px;
-  background-color: #efefef;
+  background-color: #f1f1f1;
   margin-left: 100px;
   margin-right:100px;
+  max-width: 1000px;
 }
 
 .info-pic{
