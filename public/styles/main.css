@@ -7,8 +7,15 @@ html{
 body{
   height:100%;
   font-family: 'Cinzel', serif;
+  background-color: #eaeaea;
 }
 
+a{
+  color: black;
+}
+.panel-header{
+  font-size:20px;
+}
 .panel{
   display: flex;
   flex-direction: column;
@@ -24,18 +31,50 @@ body{
   margin: 5px;
 }
 
+.panel-body{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
 .body-item{
   /*border: 1px solid black;*/
   margin: 10px;
   padding: 10px;
-  font-family: 'Cormorant Garamond', serif;
   display: flex;
   flex-direction: row;
 
-  font-size:20px;
 }
 
 .sub-item{
-  margin: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 2px;
+}
+
+.info-box{
+  font-size:20px;
+  font-family: 'Cormorant Garamond', serif;
+  display: flex;
+  flex-direction:row;
+  flex: 1;
+  margin: 20px;
+  /*border: 1px solid #886699;*/
+  border-radius: 10px;
+  background-color: #efefef;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.info-pic{
+  padding:10px;
+}
+
+.info-text{
+  padding: 20px;
+}
+
+
+
+.rounded{
+  border-radius: 50%;
 }
