@@ -4,6 +4,8 @@
 html{
   height:100%;
 }
+
+
 body{
   height:100%;
   font-family: 'Cinzel', serif;
@@ -19,6 +21,7 @@ a{
 }
 
 .title-header{
+  width:100%;
   font-size:20px;
   flex: 1;
   text-align:center;
@@ -30,26 +33,12 @@ a{
   flex-direction: row;
   margin-bottom: 20px;
 }
-.panel{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-
 
 .nav-item{
   margin: 5px;
 }
 
-.panel-body{
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-}
-
-.body-item{
+.picture-rail{
   /*border: 1px solid black;*/
   margin: 10px;
   padding: 10px;
@@ -85,8 +74,6 @@ a{
 .info-text{
   padding: 20px;
 }
-
-
 
 .rounded{
   border-radius: 50%;
