@@ -23,11 +23,25 @@ a{
   color: black;
 }
 
+.additional-right{
+  position: absolute;
+  right: 0px;
+  margin: 5px;
+}
+
+.additional-left{
+  position: absolute;
+  left: 0px;
+  margin: 5px;
+}
+
+
 .title-header{
   width:100%;
   font-size:16px;
   flex: 2;
   text-align:center;
+  margin-top: 10px;
 }
 
 
@@ -77,13 +91,18 @@ a{
   padding: 2px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .wide-only {
     display: none;
   }
   .info-pic {
     display: none;
   }
+
+  .title-header{
+    margin-top: 50px;
+  }
+
 }
 
 .info-box{
@@ -124,6 +143,14 @@ a{
 .rounded{
   border-radius: 50%;
   width:250px;
+}
+
+.blue{
+  color: #14146c;
+}
+
+.large{
+  font-size: 20px;
 }
 
 .map{
