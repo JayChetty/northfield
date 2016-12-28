@@ -8,7 +8,8 @@ html{
 
 
 body{
-  overflow-x: hidden !important;
+  margin: 0px;
+  /*overflow-x: hidden !important;*/
   height:100%;
   font-family: 'Cinzel', serif;
   background-color: #eaeaea;
@@ -87,6 +88,8 @@ a{
   max-width: 1000px;
   /*width: 100%;*/
   margin:10px;
+  align-items: center;
+
 }
 
 .info-pic{
