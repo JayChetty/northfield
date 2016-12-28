@@ -17,7 +17,7 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start;;
 }
 
 a{
@@ -26,7 +26,7 @@ a{
 
 .title-header{
   width:100%;
-  font-size:20px;
+  font-size:16px;
   flex: 1;
   text-align:center;
 }
@@ -35,12 +35,12 @@ a{
 .nav{
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   flex: 1;
 }
 
 .main{
-  flex: 8;
+  flex: 1;
 }
 
 .nav-item{
@@ -54,7 +54,7 @@ a{
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex: 5;
+  flex: 8;
   align-items: center;
   justify-content: center;
 }
@@ -70,6 +70,9 @@ a{
 
 @media (max-width: 600px) {
   .wide-only {
+    display: none;
+  }
+  .info-pic {
     display: none;
   }
 }
