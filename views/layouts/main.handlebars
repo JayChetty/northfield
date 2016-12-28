@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title> Northfield House Hotel </title>
-    <link rel='stylesheet' type='text/css' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' href='/styles/main.css'>
     <meta name="viewport" content="width=device-width", initial-scale="1">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <script src="https://use.fontawesome.com/ef6490fd30.js"></script>
@@ -24,16 +24,16 @@
       </div>
       <div class='nav'>
         <div class='nav-item' id='about'>
-          <a href='/about'>about</a>
+          <a href='/home'>home</a>
         </div>
         <div class='nav-item' id='menu'>
-          <a href='/menu'>restaurant</a>
-        </div>
-        <div class='nav-item' id='contact'>
-          <a href='/contact'>contact</a>
+          <a href='/restaurant'>restaurant</a>
         </div>
         <div class='nav-item' id='contact'>
           <a href='/rooms'>rooms</a>
+        </div>
+        <div class='nav-item' id='contact'>
+          <a href='/contact'>contact</a>
         </div>
       </div>
       <div class='main'>
@@ -44,7 +44,7 @@
 </html>
 
 <script>
-  var page = "about";
+  var page = "home";
   var path = window.location.pathname.slice(1);
   if(path.length > 0){
     page = path;
