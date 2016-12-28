@@ -87,8 +87,11 @@ a{
 }
 
 .info-box{
-  /*font-size:20px;*/
+  font-size:20px;
   font-family: 'Cormorant Garamond', serif;
+  /*font-family: sans-serif;*/
+
+
   display: flex;
   flex-direction:row;
   /*flex: 1;*/
@@ -97,27 +100,32 @@ a{
   border-radius: 10px;
   background-color: #f4f4f4;
   /*align-items: center;*/
-  max-width: 1000px;
+  max-width: 800px;
   /*width: 100%;*/
   /*margin:10px;*/
-  margin-top: 10px;
+  margin-top: 20px;
   align-items: center;
   justify-content: space-around;
 
 }
 
 .info-pic{
-  padding:10px;
+  padding:20px;
   flex: 1;
 }
 
 .info-text{
   align-items: center;
   padding: 20px;
-  flex: 1;
+  flex: 3;
   text-align:center;
 }
 
 .rounded{
   border-radius: 50%;
+  width:250px;
+}
+
+.map{
+  /*width:200px;*/
 }
