@@ -153,6 +153,29 @@ a{
   font-size: 20px;
 }
 
-.map{
-  /*width:200px;*/
+.contact{
+  padding: 20px;
+}
+
+.menu{
+  background-color: #ffffee;
+  padding: 15px;
+  border-radius:5px;
+  margin-top:10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.course{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-header{
+  font-size: 18px;
+  font-weight:bold;
+  text-decoration: underline;
+  padding-bottom:50px;
 }
