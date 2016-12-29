@@ -44,6 +44,7 @@ a{
   font-size:16px;
   flex: 2;
   text-align:center;
+  background-color: #f4f4f4;
   /*background-color: #ffffee;*/
   /*margin-top: 10px;*/
 }
@@ -104,7 +105,7 @@ a{
   }
 
   .title-header{
-    margin-top: 46px;
+    padding-top: 46px;
   }
 
 }
