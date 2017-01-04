@@ -164,6 +164,7 @@ a{
 
 .contact{
   padding: 20px;
+  flex-direction: column;
 }
 
 .menu{
