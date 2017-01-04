@@ -23,32 +23,37 @@
         <h1> Northfield House Hotel </h1>
       </div>
       <div class='nav'>
-        <div class='nav-item' id='about'>
-          <a href='/home'>home</a>
+        <div class='nav-item' >
+          <a id='home'href='/home'>home</a>
         </div>
-        <div class='nav-item' id='menu'>
-          <a href='/restaurant'>restaurant</a>
+        <div class='nav-item'>
+          <a id='restaurant' href='/restaurant'>restaurant</a>
         </div>
-        <div class='nav-item' id='contact'>
-          <a href='/rooms'>rooms</a>
+        <div class='nav-item'>
+          <a id='rooms' href='/rooms'>rooms</a>
         </div>
-        <div class='nav-item' id='contact'>
-          <a href='/contact'>contact</a>
+        <div class='nav-item' >
+          <a id='contact' href='/contact'>contact</a>
         </div>
       </div>
       <div class='main'>
         {{{body}}}
       </div>
+      <footer>
+        Northfield Hotel, 115 Lasswade Road, Edinburgh, EH16 6UD : Tel : +44 (0) 131 664 2466
+      </footer>
 
   </body>
 </html>
 
 <script>
   var page = "home";
-  var path = window.location.pathname.slice(1);
+  console.log("path", window.location.pathname)
+  var path = window.location.pathname.slice(1).replace("/", "");
   if(path.length > 0){
     page = path;
   }
+  console.log('got page', page)
   var node = document.getElementById(page);
   node.className += " selected";
 </script>

@@ -35,7 +35,6 @@ a{
   left: 0px;
   margin-left: 8px;
   margin-top: 8px;
-
 }
 
 
@@ -76,6 +75,11 @@ a{
 .nav-item{
   margin: 5px;
 
+}
+
+a.selected{
+  /*color:blue;*/
+  font-weight:bolder;
 }
 
 .picture-rail{
@@ -188,4 +192,13 @@ a{
   font-weight:bold;
   text-decoration: underline;
   padding-bottom:50px;
+}
+
+footer{
+  font-size: 9px;
+  /*width:100%;*/
+  margin-top: 10px;
+  margn-bottom:10px;
+  border-top: thin solid black;
+  text-align: center;
 }
