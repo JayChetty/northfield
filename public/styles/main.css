@@ -172,6 +172,7 @@ a.selected{
 }
 
 .menu{
+  font-family: 'Cormorant Garamond', serif;
   background-color: #ffffee;
   padding: 15px;
   border-radius:5px;
@@ -182,13 +183,17 @@ a.selected{
   border: 1px solid black;
 }
 
+.menu-item{
+  margin-top:20px;
+}
+
 .course{
   text-align: center;
   margin-bottom: 20px;
 }
 
 .course-header{
-  font-size: 18px;
+  font-size: 22px;
   font-weight:bold;
   text-decoration: underline;
   padding-bottom:50px;
@@ -197,7 +202,7 @@ a.selected{
 footer{
   font-size: 9px;
   /*width:100%;*/
-  margin-top: 10px;
+  margin-top: 15px;
   margn-bottom:10px;
   border-top: thin solid black;
   text-align: center;
