@@ -196,7 +196,10 @@ a.selected{
   font-size: 22px;
   font-weight:bold;
   text-decoration: underline;
-  padding-bottom:50px;
+}
+
+.widget-box{
+  padding-top:20px;
 }
 
 footer{
