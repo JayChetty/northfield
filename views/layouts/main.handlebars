@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Northfield House Hotel </title>
-    <link rel='stylesheet' type='text/css' href='/styles/main.css'>
-    <meta name="viewport" content="width=device-width", initial-scale="1">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-    <script src="https://use.fontawesome.com/ef6490fd30.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-  </head>
-  <body>
-      <div class='additional-right'>
-        <i class="fa fa-phone" aria-hidden="true"></i> +44 (0)131 664 2466
-      </div>
 
-      <div class='additional-left'>
-        <strong class='blue large'> Superb 9</strong> <small>/10 </small><br>
-        <small>328 reviews Booking.com</small>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <title> Northfield House Hotel </title>
+  <link rel='stylesheet' type='text/css' href='/styles/main.css'>
+  <meta name="viewport" content="width=device-width" , initial-scale="1">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <script src="https://use.fontawesome.com/ef6490fd30.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+</head>
 
-      <div class='title-header'>
-        <h1> Northfield House Hotel </h1>
-      </div>
+<body>
+  <div class='additional-right'>
+    <i class="fa fa-phone" aria-hidden="true"></i> +44 (0)131 664 2466
+  </div>
 
-      <nav class='nav'>
+  <div class='additional-left'>
+    <strong class='blue large'> Superb 9</strong> <small>/10 </small><br>
+    <small>328 reviews Booking.com</small>
+  </div>
 
-        <div class='nav-item' >
-          <a id='home'href='/home'>home</a>
-        </div>
-        <div class='nav-item'>
-          <a id='restaurant' href='/restaurant'>restaurant</a>
-        </div>
-        <div class='nav-item'>
-          <a id='rooms' href='/rooms'>rooms</a>
-        </div>
-        <div class='nav-item' >
-          <a id='contact' href='/contact'>contact</a>
-        </div>
-      </nav>
+  <div class='title-header'>
+    <h1> Northfield House Hotel </h1>
+  </div>
 
-      <div class='main'>
-        {{{body}}}
-      </div>
-      <footer>
-        Northfield Hotel, 115 Lasswade Road, Edinburgh, EH16 6UD : Tel : +44 (0) 131 664 2466
-      </footer>
+  <nav class='nav'>
 
-  </body>
+    <div class='nav-item'>
+      <a id='home' href='/home'>home</a>
+    </div>
+    <div class='nav-item'>
+      <a id='rooms' href='/rooms'>rooms</a>
+    </div>
+    <div class='nav-item'>
+      <a id='contact' href='/contact'>contact</a>
+    </div>
+  </nav>
+
+  <div class='main'>
+    {{{body}}}
+  </div>
+  <footer>
+    Northfield Hotel, 115 Lasswade Road, Edinburgh, EH16 6UD : Tel : +44 (0) 131 664 2466
+  </footer>
+
+</body>
+
 </html>
 
 <script>
   var page = "home";
   console.log("path", window.location.pathname)
   var path = window.location.pathname.slice(1).replace("/", "");
-  if(path.length > 0){
+  if (path.length > 0) {
     page = path;
   }
   console.log('got page', page)
